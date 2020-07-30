@@ -1,0 +1,6 @@
+framework module Pods_SmaatoDemo_SmaatoDemoUITests {
+  umbrella header "Pods-SmaatoDemo-SmaatoDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

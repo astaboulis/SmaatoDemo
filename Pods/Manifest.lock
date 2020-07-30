@@ -1,0 +1,56 @@
+PODS:
+  - smaato-ios-sdk (21.5.2):
+    - smaato-ios-sdk/Full (= 21.5.2)
+  - smaato-ios-sdk/Banner (21.5.2):
+    - smaato-ios-sdk/Modules/Banner
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/RichMedia
+  - smaato-ios-sdk/Full (21.5.2):
+    - smaato-ios-sdk/Banner
+    - smaato-ios-sdk/Interstitial
+    - smaato-ios-sdk/Native
+    - smaato-ios-sdk/RewardedAds
+  - smaato-ios-sdk/Interstitial (21.5.2):
+    - smaato-ios-sdk/Modules/Interstitial
+    - smaato-ios-sdk/Modules/RichMedia
+    - smaato-ios-sdk/Modules/Video
+  - smaato-ios-sdk/Modules/Banner (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/Core (21.5.2)
+  - smaato-ios-sdk/Modules/Interstitial (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/Native (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/OpenMeasurement (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/RewardedAds (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/RichMedia (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/OpenMeasurement
+  - smaato-ios-sdk/Modules/Video (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/OpenMeasurement
+  - smaato-ios-sdk/Native (21.5.2):
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/Native
+  - smaato-ios-sdk/RewardedAds (21.5.2):
+    - smaato-ios-sdk/Modules/RewardedAds
+    - smaato-ios-sdk/Modules/Video
+
+DEPENDENCIES:
+  - smaato-ios-sdk
+  - smaato-ios-sdk/Banner
+  - smaato-ios-sdk/Interstitial
+  - smaato-ios-sdk/Native
+
+SPEC REPOS:
+  trunk:
+    - smaato-ios-sdk
+
+SPEC CHECKSUMS:
+  smaato-ios-sdk: 2be81511a3fe8adb27c08804b12c6c7f956963ac
+
+PODFILE CHECKSUM: fe5588490cbe332e7e328b2f070e594516d71b1d
+
+COCOAPODS: 1.9.3

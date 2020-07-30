@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'SmaatoDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SmaatoDemo
+  
+  pod 'smaato-ios-sdk'
+
+  pod 'smaato-ios-sdk/Banner'
+
+  pod 'smaato-ios-sdk/Interstitial'
+
+  pod 'smaato-ios-sdk/Native'
+
+  target 'SmaatoDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SmaatoDemoUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,1024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FFB3DCA5CF8EDA64CA668FA6486F57F7 /* smaato-ios-sdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 45FD5E492BA3C3C293BDD2AA5561F458 /* Build configuration list for PBXAggregateTarget "smaato-ios-sdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "smaato-ios-sdk";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0524D98819247D952182115CB9D68585 /* Pods-SmaatoDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B888E6A2168045FC260D49D2759F4C04 /* Pods-SmaatoDemo-dummy.m */; };
+		1FE87B717F217BB7671C662237FAF037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		45522B29325B605CAA728BED63F4ECB5 /* Pods-SmaatoDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B86777B218529BEECCE9F7DF308D5E /* Pods-SmaatoDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEE09C0A9A67A498B525E62EC34C299 /* Pods-SmaatoDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03000C8C16B169AA93A2677A24870C6E /* Pods-SmaatoDemoTests-dummy.m */; };
+		6D774A1DC251BDD548A9427EF9BD0F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		73685346C129BFFC37D61543E6D6445F /* Pods-SmaatoDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2772D6162BC72442BAAEC009333A80FE /* Pods-SmaatoDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED341220C5199738640B026EF715383 /* Pods-SmaatoDemo-SmaatoDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 977FBCDCB184453B2356FF497D647DA7 /* Pods-SmaatoDemo-SmaatoDemoUITests-dummy.m */; };
+		BD4C4223E68C633D46BDA0C5CE1F1731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F242DF699C21C1911694AC7C9A3BAC1F /* Pods-SmaatoDemo-SmaatoDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A22BBA312100EC93813AA759155B68 /* Pods-SmaatoDemo-SmaatoDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F2455299E06A3F3B6E21AD30DDBFB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB3DCA5CF8EDA64CA668FA6486F57F7;
+			remoteInfo = "smaato-ios-sdk";
+		};
+		8D77F5A6AD1FA8E0E4AAAB2AEFFFC71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E8FD6D1B0F50F0FB2E65D9A8328A3D;
+			remoteInfo = "Pods-SmaatoDemo";
+		};
+		EBD2CFC6E1234AC857926705A0797FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB3DCA5CF8EDA64CA668FA6486F57F7;
+			remoteInfo = "smaato-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03000C8C16B169AA93A2677A24870C6E /* Pods-SmaatoDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmaatoDemoTests-dummy.m"; sourceTree = "<group>"; };
+		04A76AB3CB5D0A52D70C9E4BA352D642 /* Pods-SmaatoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmaatoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0AC307EC8A231165D386EF09B558A8C6 /* Pods-SmaatoDemo-SmaatoDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmaatoDemo-SmaatoDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D225D48D1F02ECF51F814EE426FA068 /* Pods-SmaatoDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmaatoDemoTests.modulemap"; sourceTree = "<group>"; };
+		0DB136CE75CC1A9B25F3895F26AF3429 /* Pods_SmaatoDemo_SmaatoDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmaatoDemo_SmaatoDemoUITests.framework; path = "Pods-SmaatoDemo-SmaatoDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEAA3DDE662B5496D5DFE658A6FB05F /* OMSDK_Smaato.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMSDK_Smaato.framework; path = vendor/OMSDK_Smaato.framework; sourceTree = "<group>"; };
+		106372DA1F75F017659F86B7B559B562 /* Pods-SmaatoDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmaatoDemo-Info.plist"; sourceTree = "<group>"; };
+		15D1993A0D82D7ED153B188F6BC6A08D /* SmaatoSDKRichMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKRichMedia.framework; sourceTree = "<group>"; };
+		1A6E4CE4FD540F5E364B160F8B9BC11C /* Pods-SmaatoDemo-SmaatoDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmaatoDemo-SmaatoDemoUITests.modulemap"; sourceTree = "<group>"; };
+		2772D6162BC72442BAAEC009333A80FE /* Pods-SmaatoDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmaatoDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32B810C86AFC759B7FC89EC61701FC5F /* smaato-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "smaato-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		4EBA15F1332B9848E435ACEFD6BC2688 /* Pods-SmaatoDemo-SmaatoDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmaatoDemo-SmaatoDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CA3938C7FCC076496BFF61F28C674D2 /* Pods-SmaatoDemo-SmaatoDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmaatoDemo-SmaatoDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60C57CC16B89570F07F91F4A772C4B0D /* Pods_SmaatoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmaatoDemo.framework; path = "Pods-SmaatoDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6677FEFB7B17AB0E6E37A4F7CF88CB82 /* Pods-SmaatoDemo-SmaatoDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmaatoDemo-SmaatoDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69A22BBA312100EC93813AA759155B68 /* Pods-SmaatoDemo-SmaatoDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmaatoDemo-SmaatoDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		6AE449A9DE946EF45E044A5AD59C80BC /* Pods-SmaatoDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmaatoDemo.modulemap"; sourceTree = "<group>"; };
+		6F2DED4274C4ADBDD8486090D3A06517 /* Pods_SmaatoDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmaatoDemoTests.framework; path = "Pods-SmaatoDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7983DCD7F5C3C8AD4C0DB5FAD8814539 /* SmaatoSDKOpenMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKOpenMeasurement.framework; sourceTree = "<group>"; };
+		802414B0E605AAE4E3F523A2673A6C03 /* SmaatoSDKBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKBanner.framework; sourceTree = "<group>"; };
+		8041EF52906F4DE32849A20F32BDCA12 /* Pods-SmaatoDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmaatoDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		84906A40DD39E906F77E7F84162C3F1D /* Pods-SmaatoDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmaatoDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		86B86777B218529BEECCE9F7DF308D5E /* Pods-SmaatoDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmaatoDemo-umbrella.h"; sourceTree = "<group>"; };
+		8D8A8D1D40A0698CB169D43B4C16F590 /* smaato-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "smaato-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		8F83D122DD5402F8DFA8174855D91490 /* SmaatoSDKRewardedAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKRewardedAds.framework; sourceTree = "<group>"; };
+		977FBCDCB184453B2356FF497D647DA7 /* Pods-SmaatoDemo-SmaatoDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmaatoDemo-SmaatoDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A167025D16EEFC225133D88965139ECA /* Pods-SmaatoDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmaatoDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A5BE1400310487214353DB395EA130AF /* SmaatoSDKInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKInterstitial.framework; sourceTree = "<group>"; };
+		AB23C32EEBB4FC69109C9F707E7EDD3C /* Pods-SmaatoDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmaatoDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3A1DFC23B91EF34F9966A2DCFF838C8 /* SmaatoSDKNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKNative.framework; sourceTree = "<group>"; };
+		B888E6A2168045FC260D49D2759F4C04 /* Pods-SmaatoDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmaatoDemo-dummy.m"; sourceTree = "<group>"; };
+		C2EF982620CCCA6097CC17CAE564DDD9 /* SmaatoSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKCore.framework; sourceTree = "<group>"; };
+		C481A7315B90926CFAD2EC811FBB2544 /* SmaatoSDKVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmaatoSDKVideo.framework; sourceTree = "<group>"; };
+		CA1E3B280F9891F8FD71A0216811E28D /* Pods-SmaatoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmaatoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DEF9E812819AAB8E548A3DDC2927290A /* Pods-SmaatoDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmaatoDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC614B3F393E8AE57C7FA649B729559B /* Pods-SmaatoDemo-SmaatoDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmaatoDemo-SmaatoDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		F49117EFDC6FAD49DE99C8D9F33E30E6 /* Pods-SmaatoDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmaatoDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE5A5EF98AF4ECA50CE53F344C79CA7E /* Pods-SmaatoDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmaatoDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26374EFEDDE0D48D43D3C0C55DA3CAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D774A1DC251BDD548A9427EF9BD0F93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD6DBAE5420CAE04EB1C3A77AFA28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE87B717F217BB7671C662237FAF037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED923E315D3B483705CDD0F1930E86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4C4223E68C633D46BDA0C5CE1F1731 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B74FDCF63A01F5C4516B784123782BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2EF982620CCCA6097CC17CAE564DDD9 /* SmaatoSDKCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D4D9661255A75BB5B9F931DDD017EB2 /* smaato-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				C38D928CBAF5B20835A7CBEC8AD55463 /* Modules */,
+				E7B261F554960EF435AD9E755EB9600A /* Support Files */,
+			);
+			name = "smaato-ios-sdk";
+			path = "smaato-ios-sdk";
+			sourceTree = "<group>";
+		};
+		10C0FBA47547CAD54A9AFA508AE40118 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				38845AFC4317BDFA359E70FB5FD8C920 /* Frameworks */,
+			);
+			name = Native;
+			sourceTree = "<group>";
+		};
+		1756ECE989359274F0A5285B9B9E8EFB /* Pods-SmaatoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AE449A9DE946EF45E044A5AD59C80BC /* Pods-SmaatoDemo.modulemap */,
+				AB23C32EEBB4FC69109C9F707E7EDD3C /* Pods-SmaatoDemo-acknowledgements.markdown */,
+				84906A40DD39E906F77E7F84162C3F1D /* Pods-SmaatoDemo-acknowledgements.plist */,
+				B888E6A2168045FC260D49D2759F4C04 /* Pods-SmaatoDemo-dummy.m */,
+				106372DA1F75F017659F86B7B559B562 /* Pods-SmaatoDemo-Info.plist */,
+				86B86777B218529BEECCE9F7DF308D5E /* Pods-SmaatoDemo-umbrella.h */,
+				CA1E3B280F9891F8FD71A0216811E28D /* Pods-SmaatoDemo.debug.xcconfig */,
+				04A76AB3CB5D0A52D70C9E4BA352D642 /* Pods-SmaatoDemo.release.xcconfig */,
+			);
+			name = "Pods-SmaatoDemo";
+			path = "Target Support Files/Pods-SmaatoDemo";
+			sourceTree = "<group>";
+		};
+		38845AFC4317BDFA359E70FB5FD8C920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1DFC23B91EF34F9966A2DCFF838C8 /* SmaatoSDKNative.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39E390B8D6396B81544C98604DA1CDE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1756ECE989359274F0A5285B9B9E8EFB /* Pods-SmaatoDemo */,
+				6075F8E909BB17AF3919F932A2F8722A /* Pods-SmaatoDemo-SmaatoDemoUITests */,
+				D92D351C0F11F3263033D6B6298E809F /* Pods-SmaatoDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C4778980C99E54BBD591C113FDCD57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F83D122DD5402F8DFA8174855D91490 /* SmaatoSDKRewardedAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		543D6112AD6AE21D80CB4C7B5E8E78AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D4D9661255A75BB5B9F931DDD017EB2 /* smaato-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6075F8E909BB17AF3919F932A2F8722A /* Pods-SmaatoDemo-SmaatoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6E4CE4FD540F5E364B160F8B9BC11C /* Pods-SmaatoDemo-SmaatoDemoUITests.modulemap */,
+				0AC307EC8A231165D386EF09B558A8C6 /* Pods-SmaatoDemo-SmaatoDemoUITests-acknowledgements.markdown */,
+				4EBA15F1332B9848E435ACEFD6BC2688 /* Pods-SmaatoDemo-SmaatoDemoUITests-acknowledgements.plist */,
+				977FBCDCB184453B2356FF497D647DA7 /* Pods-SmaatoDemo-SmaatoDemoUITests-dummy.m */,
+				EC614B3F393E8AE57C7FA649B729559B /* Pods-SmaatoDemo-SmaatoDemoUITests-Info.plist */,
+				69A22BBA312100EC93813AA759155B68 /* Pods-SmaatoDemo-SmaatoDemoUITests-umbrella.h */,
+				6677FEFB7B17AB0E6E37A4F7CF88CB82 /* Pods-SmaatoDemo-SmaatoDemoUITests.debug.xcconfig */,
+				5CA3938C7FCC076496BFF61F28C674D2 /* Pods-SmaatoDemo-SmaatoDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-SmaatoDemo-SmaatoDemoUITests";
+			path = "Target Support Files/Pods-SmaatoDemo-SmaatoDemoUITests";
+			sourceTree = "<group>";
+		};
+		762502E77000D549941E5461C0A77236 /* RewardedAds */ = {
+			isa = PBXGroup;
+			children = (
+				4C4778980C99E54BBD591C113FDCD57E /* Frameworks */,
+			);
+			name = RewardedAds;
+			sourceTree = "<group>";
+		};
+		7AF9DC5CA74668B52B2D21AA934F76D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE1400310487214353DB395EA130AF /* SmaatoSDKInterstitial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CCEA728C2740A37D5984A408827632D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9ED6A9A1C1BC2DFB0BF834D92BEE48DD /* Frameworks */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		7CD956B6079EEBD889D3403C20A6573F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEAA3DDE662B5496D5DFE658A6FB05F /* OMSDK_Smaato.framework */,
+				7983DCD7F5C3C8AD4C0DB5FAD8814539 /* SmaatoSDKOpenMeasurement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F4AF9E6F094E5607F8D22C3F7F66B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802414B0E605AAE4E3F523A2673A6C03 /* SmaatoSDKBanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98ACDBAF3C56DD2E76779D8B1A12DDCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D1993A0D82D7ED153B188F6BC6A08D /* SmaatoSDKRichMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B1AC3463D69C1AC4DB5A837543833AF /* RichMedia */ = {
+			isa = PBXGroup;
+			children = (
+				98ACDBAF3C56DD2E76779D8B1A12DDCF /* Frameworks */,
+			);
+			name = RichMedia;
+			sourceTree = "<group>";
+		};
+		9ED6A9A1C1BC2DFB0BF834D92BEE48DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C481A7315B90926CFAD2EC811FBB2544 /* SmaatoSDKVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A91E49E7DEB0DF2CA42702079EAB7E92 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9DC5CA74668B52B2D21AA934F76D2 /* Frameworks */,
+			);
+			name = Interstitial;
+			sourceTree = "<group>";
+		};
+		AFC257F02B3B0ECDDC77A03BEE83FE2E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0B74FDCF63A01F5C4516B784123782BF /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C38D928CBAF5B20835A7CBEC8AD55463 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E43514CAA216D88CDCF5722B66134AB4 /* Banner */,
+				AFC257F02B3B0ECDDC77A03BEE83FE2E /* Core */,
+				A91E49E7DEB0DF2CA42702079EAB7E92 /* Interstitial */,
+				10C0FBA47547CAD54A9AFA508AE40118 /* Native */,
+				D3D99513534791691ACC405CE1603AFE /* OpenMeasurement */,
+				762502E77000D549941E5461C0A77236 /* RewardedAds */,
+				9B1AC3463D69C1AC4DB5A837543833AF /* RichMedia */,
+				7CCEA728C2740A37D5984A408827632D /* Video */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		CAA3951EA4B47182418618A8371827AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C57CC16B89570F07F91F4A772C4B0D /* Pods_SmaatoDemo.framework */,
+				0DB136CE75CC1A9B25F3895F26AF3429 /* Pods_SmaatoDemo_SmaatoDemoUITests.framework */,
+				6F2DED4274C4ADBDD8486090D3A06517 /* Pods_SmaatoDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				543D6112AD6AE21D80CB4C7B5E8E78AA /* Pods */,
+				CAA3951EA4B47182418618A8371827AE /* Products */,
+				39E390B8D6396B81544C98604DA1CDE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D99513534791691ACC405CE1603AFE /* OpenMeasurement */ = {
+			isa = PBXGroup;
+			children = (
+				7CD956B6079EEBD889D3403C20A6573F /* Frameworks */,
+			);
+			name = OpenMeasurement;
+			sourceTree = "<group>";
+		};
+		D92D351C0F11F3263033D6B6298E809F /* Pods-SmaatoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D225D48D1F02ECF51F814EE426FA068 /* Pods-SmaatoDemoTests.modulemap */,
+				FE5A5EF98AF4ECA50CE53F344C79CA7E /* Pods-SmaatoDemoTests-acknowledgements.markdown */,
+				F49117EFDC6FAD49DE99C8D9F33E30E6 /* Pods-SmaatoDemoTests-acknowledgements.plist */,
+				03000C8C16B169AA93A2677A24870C6E /* Pods-SmaatoDemoTests-dummy.m */,
+				A167025D16EEFC225133D88965139ECA /* Pods-SmaatoDemoTests-Info.plist */,
+				2772D6162BC72442BAAEC009333A80FE /* Pods-SmaatoDemoTests-umbrella.h */,
+				DEF9E812819AAB8E548A3DDC2927290A /* Pods-SmaatoDemoTests.debug.xcconfig */,
+				8041EF52906F4DE32849A20F32BDCA12 /* Pods-SmaatoDemoTests.release.xcconfig */,
+			);
+			name = "Pods-SmaatoDemoTests";
+			path = "Target Support Files/Pods-SmaatoDemoTests";
+			sourceTree = "<group>";
+		};
+		E43514CAA216D88CDCF5722B66134AB4 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				8F4AF9E6F094E5607F8D22C3F7F66B19 /* Frameworks */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		E7B261F554960EF435AD9E755EB9600A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A8D1D40A0698CB169D43B4C16F590 /* smaato-ios-sdk.debug.xcconfig */,
+				32B810C86AFC759B7FC89EC61701FC5F /* smaato-ios-sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/smaato-ios-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		135CA089E0F46D3EA46D725A0488E932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F242DF699C21C1911694AC7C9A3BAC1F /* Pods-SmaatoDemo-SmaatoDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CCE3C177E7B48DADFDF55D3C0F1A00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73685346C129BFFC37D61543E6D6445F /* Pods-SmaatoDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDBE0D5287CCCCBF7EA0821FB5845C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45522B29325B605CAA728BED63F4ECB5 /* Pods-SmaatoDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44E8FD6D1B0F50F0FB2E65D9A8328A3D /* Pods-SmaatoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969A5570EA5092A7777DE714B050B343 /* Build configuration list for PBXNativeTarget "Pods-SmaatoDemo" */;
+			buildPhases = (
+				EEDBE0D5287CCCCBF7EA0821FB5845C9 /* Headers */,
+				D6FCA909031A4CC02F6294CBF5846D6D /* Sources */,
+				FED923E315D3B483705CDD0F1930E86D /* Frameworks */,
+				92CCE75EC1099A3BF160A7351CF5DA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFD4469EB24B213E6F18889F318427F /* PBXTargetDependency */,
+			);
+			name = "Pods-SmaatoDemo";
+			productName = "Pods-SmaatoDemo";
+			productReference = 60C57CC16B89570F07F91F4A772C4B0D /* Pods_SmaatoDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49615F73D657EDAA0D87F12FD17AF7A6 /* Pods-SmaatoDemo-SmaatoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B4C43A9923D759EC69C2A58A738DCE /* Build configuration list for PBXNativeTarget "Pods-SmaatoDemo-SmaatoDemoUITests" */;
+			buildPhases = (
+				135CA089E0F46D3EA46D725A0488E932 /* Headers */,
+				45EFF494BDCFBDBBCF4C6B632DDA0525 /* Sources */,
+				26374EFEDDE0D48D43D3C0C55DA3CAB4 /* Frameworks */,
+				73CF2E193C8EBFE86C0680F6697FE124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB9A6B849877DD8360B1F659C364831 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmaatoDemo-SmaatoDemoUITests";
+			productName = "Pods-SmaatoDemo-SmaatoDemoUITests";
+			productReference = 0DB136CE75CC1A9B25F3895F26AF3429 /* Pods_SmaatoDemo_SmaatoDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D903D1EBF4B96E92C59FB63E1F8D79C9 /* Pods-SmaatoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37240DD865113001D0201E2C4B45256B /* Build configuration list for PBXNativeTarget "Pods-SmaatoDemoTests" */;
+			buildPhases = (
+				A6CCE3C177E7B48DADFDF55D3C0F1A00 /* Headers */,
+				B8B78F298F8F4499ADCFDC25302C75F3 /* Sources */,
+				DDDD6DBAE5420CAE04EB1C3A77AFA28D /* Frameworks */,
+				ACDC2C7B84325AF1F1940BB15F92AA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E955C39404B78B517B4BB33727E5529E /* PBXTargetDependency */,
+			);
+			name = "Pods-SmaatoDemoTests";
+			productName = "Pods-SmaatoDemoTests";
+			productReference = 6F2DED4274C4ADBDD8486090D3A06517 /* Pods_SmaatoDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CAA3951EA4B47182418618A8371827AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E8FD6D1B0F50F0FB2E65D9A8328A3D /* Pods-SmaatoDemo */,
+				49615F73D657EDAA0D87F12FD17AF7A6 /* Pods-SmaatoDemo-SmaatoDemoUITests */,
+				D903D1EBF4B96E92C59FB63E1F8D79C9 /* Pods-SmaatoDemoTests */,
+				FFB3DCA5CF8EDA64CA668FA6486F57F7 /* smaato-ios-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73CF2E193C8EBFE86C0680F6697FE124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CCE75EC1099A3BF160A7351CF5DA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC2C7B84325AF1F1940BB15F92AA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45EFF494BDCFBDBBCF4C6B632DDA0525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED341220C5199738640B026EF715383 /* Pods-SmaatoDemo-SmaatoDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B78F298F8F4499ADCFDC25302C75F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEE09C0A9A67A498B525E62EC34C299 /* Pods-SmaatoDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FCA909031A4CC02F6294CBF5846D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0524D98819247D952182115CB9D68585 /* Pods-SmaatoDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB9A6B849877DD8360B1F659C364831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "smaato-ios-sdk";
+			target = FFB3DCA5CF8EDA64CA668FA6486F57F7 /* smaato-ios-sdk */;
+			targetProxy = 2F2455299E06A3F3B6E21AD30DDBFB17 /* PBXContainerItemProxy */;
+		};
+		CBFD4469EB24B213E6F18889F318427F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "smaato-ios-sdk";
+			target = FFB3DCA5CF8EDA64CA668FA6486F57F7 /* smaato-ios-sdk */;
+			targetProxy = EBD2CFC6E1234AC857926705A0797FE9 /* PBXContainerItemProxy */;
+		};
+		E955C39404B78B517B4BB33727E5529E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmaatoDemo";
+			target = 44E8FD6D1B0F50F0FB2E65D9A8328A3D /* Pods-SmaatoDemo */;
+			targetProxy = 8D77F5A6AD1FA8E0E4AAAB2AEFFFC71F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		009C4ABA925CB339F5F9227E4C9A18C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B810C86AFC759B7FC89EC61701FC5F /* smaato-ios-sdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9A29401725C89CAAF9B4096C9811371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8041EF52906F4DE32849A20F32BDCA12 /* Pods-SmaatoDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmaatoDemoTests/Pods-SmaatoDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmaatoDemoTests/Pods-SmaatoDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAA7F58B0988E080D9A1F310280145B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1E3B280F9891F8FD71A0216811E28D /* Pods-SmaatoDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmaatoDemo/Pods-SmaatoDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmaatoDemo/Pods-SmaatoDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B79BAA71F7CB3712E8DE68488EFD0BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6677FEFB7B17AB0E6E37A4F7CF88CB82 /* Pods-SmaatoDemo-SmaatoDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmaatoDemo-SmaatoDemoUITests/Pods-SmaatoDemo-SmaatoDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmaatoDemo-SmaatoDemoUITests/Pods-SmaatoDemo-SmaatoDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC8D0C8738437388C7CA7848EE0B41A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8A8D1D40A0698CB169D43B4C16F590 /* smaato-ios-sdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD86FC9F3EB38A3187407FE212211D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA3938C7FCC076496BFF61F28C674D2 /* Pods-SmaatoDemo-SmaatoDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmaatoDemo-SmaatoDemoUITests/Pods-SmaatoDemo-SmaatoDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmaatoDemo-SmaatoDemoUITests/Pods-SmaatoDemo-SmaatoDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E257C41212A51661AE8275839E44696E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A76AB3CB5D0A52D70C9E4BA352D642 /* Pods-SmaatoDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmaatoDemo/Pods-SmaatoDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmaatoDemo/Pods-SmaatoDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDDC843EA8A90AAE3DE49F30102B6B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF9E812819AAB8E548A3DDC2927290A /* Pods-SmaatoDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmaatoDemoTests/Pods-SmaatoDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmaatoDemoTests/Pods-SmaatoDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37240DD865113001D0201E2C4B45256B /* Build configuration list for PBXNativeTarget "Pods-SmaatoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDC843EA8A90AAE3DE49F30102B6B1D /* Debug */,
+				9A29401725C89CAAF9B4096C9811371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FD5E492BA3C3C293BDD2AA5561F458 /* Build configuration list for PBXAggregateTarget "smaato-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8D0C8738437388C7CA7848EE0B41A4 /* Debug */,
+				009C4ABA925CB339F5F9227E4C9A18C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B4C43A9923D759EC69C2A58A738DCE /* Build configuration list for PBXNativeTarget "Pods-SmaatoDemo-SmaatoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BAA71F7CB3712E8DE68488EFD0BBE /* Debug */,
+				DD86FC9F3EB38A3187407FE212211D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969A5570EA5092A7777DE714B050B343 /* Build configuration list for PBXNativeTarget "Pods-SmaatoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA7F58B0988E080D9A1F310280145B0 /* Debug */,
+				E257C41212A51661AE8275839E44696E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
